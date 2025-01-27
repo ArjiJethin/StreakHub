@@ -36,7 +36,7 @@
 ---
 
 ## 🛠️ Technologies Used
-- **Frontend**: React Native
+- **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: Firebase Auth
