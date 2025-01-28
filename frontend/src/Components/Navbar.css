@@ -1,0 +1,127 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    padding: 15px 30px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #d4d4d4;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .mobile-menu {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: #007bff;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px 0;
+      display: flex;
+    }
+  
+    .mobile-menu a {
+      display: block;
+      padding: 10px 0;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+  
+    .mobile-menu a:hover {
+      background: #0056b3;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; 
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      font-size: 24px;
+    }
+  
+    .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      background: #007bff;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+    }
+  
+    .mobile-menu a {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+    }
+  
+    .mobile-menu a:hover {
+      background: #005;
+    }
+    
+}
+  
+
+  
