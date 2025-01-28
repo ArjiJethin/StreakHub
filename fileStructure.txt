@@ -1,0 +1,38 @@
+/StreakHub
+├── /backend                  # Backend server
+│   ├── /config               # Configuration files (DB, environment)
+│   │   └── db.js
+│   ├── /controllers          # Controllers (handle API logic)
+│   │   └── userController.js
+│   ├── /models               # Database models
+│   │   └── userModel.js
+│   ├── /routes               # API routes
+│   │   └── userRoutes.js
+│   ├── /middleware           # Custom middlewares
+│   │   └── authMiddleware.js
+│   ├── /utils                # Utility functions
+│   │   └── generateToken.js
+│   ├── server.js             # Main server file
+│   └── package.json          # Backend dependencies
+├── /frontend                 # Frontend (React)
+│   ├── /public               # Static files
+│   │   └── index.html
+│   ├── /src                  # Source code
+│   │   ├── /components       # Reusable components
+│   │   │   └── Navbar.js
+│   │   ├── /pages            # Page components
+│   │   │   └── HomePage.js
+│   │   ├── /context          # Global state (React Context API or Redux)
+│   │   │   └── UserContext.js
+│   │   ├── /services         # API call logic (Axios)
+│   │   │   └── userService.js
+│   │   ├── /styles           # CSS/SCSS styles
+│   │   │   └── App.css
+│   │   ├── App.js            # Main app component
+│   │   └── index.js          # Entry point
+│   └── package.json          # Frontend dependencies
+├── .env                      # Environment variables
+├── .gitignore                # Ignore files for Git
+├── LICENSE                   # License file
+├── README.md                 # Project description
+└── package.json              # Root dependencies (concurrently, etc.)
