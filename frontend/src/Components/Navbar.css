@@ -1,4 +1,8 @@
-/* Navbar Container */
+.Navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -8,10 +12,12 @@
     color: white;
     position: fixed;
     width: 100%;
-    top: 0;
+    bottom: 10px;
     left: 0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 99, 198, 0.85);
+    z-index: 1;
+    margin: 10px;
+    border-radius: 30px;
   }
   
   .navbar-logo {
@@ -24,7 +30,7 @@
   .nav-links {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 10px;
   }
   
   .nav-links li {
