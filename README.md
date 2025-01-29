@@ -28,14 +28,14 @@
 
 ---
 
-## 🚀 Why Choose StreakHub?
+## Why StreakHub?
 - **Flexibility**: Suitable for any domain—learning, fitness, content creation, or any personal goal.
 - **Community Engagement**: Stay motivated by connecting and competing with others.
 - **Accountability**: Build strong habits through streak tracking and consistent reminders.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack Used
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
