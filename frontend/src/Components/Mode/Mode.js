@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMoon as solidMoon } from '@fortawesome/free-solid-svg-icons';
+import { faMoon as regularMoon } from '@fortawesome/free-regular-svg-icons';
+import './Mode.css';
 const Mode = () => {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -13,8 +16,8 @@ const Mode = () => {
 
   return (
     <div className="mode-toggle">
-      <button onClick={() => setDarkMode(!darkMode)}>
-        {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+      <button className='switch-button' onClick={() => setDarkMode(!darkMode)}>
+        <FontAwesomeIcon icon={darkMode ? solidMoon : regularMoon}/>
       </button>
     </div>
   );

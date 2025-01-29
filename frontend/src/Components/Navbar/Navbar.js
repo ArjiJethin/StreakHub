@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Mode from "../Mode/Mode";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -6,6 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="/" className="navbar-logo"><img src="./logo-without-bg.png" alt="Logo"/>StreakHub</a>
+      <Mode />
       <ul className="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
@@ -15,6 +17,7 @@ const Navbar = () => {
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
       </div>
+
       {menuOpen && (
         <div className="mobile-menu">
           <a href="/" onClick={() => setMenuOpen(false)}>Home</a>

@@ -3,14 +3,12 @@ import Modal from "./Components/Modal/Modal";
 import Navbar from "./Components/Navbar/Navbar";
 import Button from "./Components/Button/Button";
 import "./App.css";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className="home">
-      <div className="center">
         <Navbar className="navBar" />
-      </div>
       <div className="box">
         <h1>Welcome to StreakHub</h1>
         <button className="button" onClick={() => setIsModalOpen(true)}>Learn More</button>

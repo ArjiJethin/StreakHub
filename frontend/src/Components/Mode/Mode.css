@@ -1,0 +1,18 @@
+button.switch-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.switch-button.light-mode {
+    background-color: blue;
+    color: white;
+}
+
+button.switch-button.dark-mode {
+    background-color: white;
+    color: blue;
+}
