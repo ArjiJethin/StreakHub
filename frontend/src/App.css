@@ -27,9 +27,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   text-align: center;
   padding-top: 50px;
-  height: 90vh;
+  height: 100vh;
+}
+
+.home-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {

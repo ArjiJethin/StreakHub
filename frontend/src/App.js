@@ -8,7 +8,9 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className="home">
+      <div className="home-nav">
         <Navbar className="navBar" />
+      </div>
       <div className="box">
         <h1>Welcome to StreakHub</h1>
         <button className="button" onClick={() => setIsModalOpen(true)}>Learn More</button>

@@ -81,10 +81,12 @@
       flex-direction: column;
       background: #007bff;
       position: absolute;
-      top: 60px;
+      border-radius: 20px;
+      top: 90px;
       left: 0;
       width: 100%;
       padding: 10px 0;
+      transition: 0.5s;
     }
   
     .mobile-menu a {
@@ -96,6 +98,6 @@
     }
   
     .mobile-menu a:hover {
-      background: #005;
+      background: #0058b7;
     }
 }
