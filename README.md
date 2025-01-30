@@ -44,7 +44,7 @@
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the [Creative Commons License ](LICENSE).
 
-Let’s make consistency your superpower with **StreakHub**! 🌟
+Let’s make consistency your superpower with **StreakHub**! 
