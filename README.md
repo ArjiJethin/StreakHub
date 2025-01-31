@@ -35,12 +35,14 @@
 
 ---
 
-## 🛠️ Tech Stack Used
+## Tech Stack Used
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: Firebase Auth
 - **Analytics**: Chart.js for progress visualization
+- **Hosting**: Vercel
+
 
 ---
 
