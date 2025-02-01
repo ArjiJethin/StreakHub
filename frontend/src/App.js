@@ -16,9 +16,6 @@ function App() {
         <button className="button" onClick={() => setIsModalOpen(true)}>Learn More</button>
         <Button onClick={() => setIsModalOpen(true)}>Learn More</Button>
       </div>
-      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} title="Nuh uh">
-        <p>This project is underdevelopment stay tuned!!</p>
-      </Modal>
     </div>
   );
 }
