@@ -35,16 +35,18 @@
 
 ---
 
-## 🛠️ Tech Stack Used
+## Tech Stack Used
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: Firebase Auth
 - **Analytics**: Chart.js for progress visualization
+- **Hosting**: Vercel
+
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the [Creative Commons License ](LICENSE).
 
-Let’s make consistency your superpower with **StreakHub**! 🌟
+Let’s make consistency your superpower with **StreakHub**! 
