@@ -47,4 +47,4 @@
 ---
 
 ## License
-This project is licensed under the [Creative Commons License ](LICENSE). Please contact @alurubalakarthikeya for contributing to this project
+This project is licensed under the [Creative Commons License ](LICENSE). Please contact [@alurubalakarthikeya](https://github.com/alurubalakarthikeya) for contributing to this project
