@@ -47,6 +47,4 @@
 ---
 
 ## License
-This project is licensed under the [Creative Commons License ](LICENSE).
-
-Let’s make consistency your superpower with **StreakHub**! 
+This project is licensed under the [Creative Commons License ](LICENSE). Please contact @alurubalakarthikeya for contributing to this project
