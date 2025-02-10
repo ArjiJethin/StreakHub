@@ -33,13 +33,13 @@
   height: 100vh;
 }
 
-.home-nav{
+.app-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  padding-top: 50px;
-  width: 100%;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Adjust the background color as needed */
 }
 
 @media (max-width: 768px) {
