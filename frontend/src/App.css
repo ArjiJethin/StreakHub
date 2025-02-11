@@ -3,6 +3,11 @@
 .App {
   text-align: center;
   font-family: "Montserrat", serif;
+  background-color: #121212;
+}
+
+NavBar {
+  width: 100%;
 }
 
 .App-logo {
@@ -35,12 +40,12 @@
 
 .app-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
-  background-color: #f0f0f0; /* Adjust the background color as needed */
+  height: 100vh;
+  background: linear-gradient(180deg, #0052a9 5%, #121212 80%);
 }
+
 
 @media (max-width: 768px) {
   .box {
@@ -79,7 +84,7 @@
   padding: 15px 25px;
   margin: 10px;
   font-size: 16px;
-  border: 2px solid #65afff;
+  border: 2px solid #003c7d;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
