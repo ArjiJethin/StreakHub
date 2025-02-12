@@ -46,10 +46,10 @@
 
 ---
 ## Our Team
-<a href="https://github.com/alurubalakarthikeya">@alurubalakarthikeya</a>
-<a href="https://github.com/ArjiJethin">@arjijethin</a>
-<a href="https://github.com/ayushsingh08-ds">@ayushsingh</a>
-<a href="https://github.com/Veda-1503">@vedeshwarinakate</a>
+<a href="https://github.com/alurubalakarthikeya">@alurubalakarthikeya</a><br>
+<a href="https://github.com/ArjiJethin">@arjijethin</a><br>
+<a href="https://github.com/ayushsingh08-ds">@ayushsingh</a><br>
+<a href="https://github.com/Veda-1503">@vedeshwarinakate</a><br>
 
 ## License
 This project is licensed under the [Creative Commons License ](LICENSE). Please contact [@alurubalakarthikeya](https://github.com/alurubalakarthikeya) for contributing to this project
