@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .App {
   text-align: center;
+  font-family: "Montserrat", serif;
+  background-color: #121212;
+}
+
+NavBar {
+  width: 100%;
 }
 
 .App-logo {
@@ -11,6 +19,81 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #0052a9 5%, #121212 80%);
+}
+
+
+@media (max-width: 768px) {
+  .box {
+    border-radius: 40px;
+    padding: 20px;
+    max-width: 300px;
+  }
+  .navBar {
+    width: 100%;
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .box {
+    border-radius: 25px;
+    padding: 30px;
+    max-width: 500px;
+  }
+}
+
+.box{
+  background-color: #007bff;
+  border: 2px solid #65afff;
+  box-shadow: 0 2px 10px rgba(0, 99, 198, 0.85);
+  border-radius: 30px;
+}
+
+.box > h1 {
+  color: white;
+}
+
+.button {
+  background: white;
+  color: #007bff;
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 16px;
+  border: 2px solid #003c7d;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #007bff;
+  color: white;
+  border: 2px solid white;
 }
 
 .App-header {

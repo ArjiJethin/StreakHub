@@ -1,6 +1,6 @@
 # StreakHub
 
-**StreakHub** is a powerful app designed to help you build consistency and stay motivated in any domain. Whether you're learning a new skill, staying committed to fitness, or creating content for social media, StreakHub ensures you stay on track while competing with others who share similar goals.
+**StreakHub** is an app designed to help you build consistency and stay motivated in any domain. Whether you're learning a new skill, staying committed to fitness, or creating content for social media, StreakHub ensures you stay on track while competing with like minded people
 
 (sup! :))
 ---
@@ -29,23 +29,28 @@
 
 ---
 
-## 🚀 Why Choose StreakHub?
+## Why StreakHub?
 - **Flexibility**: Suitable for any domain—learning, fitness, content creation, or any personal goal.
 - **Community Engagement**: Stay motivated by connecting and competing with others.
 - **Accountability**: Build strong habits through streak tracking and consistent reminders.
 
 ---
 
-## 🛠️ Technologies Used
+## Tech Stack Used
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: Firebase Auth
 - **Analytics**: Chart.js for progress visualization
+- **Hosting**: Vercel
+
 
 ---
+## Our Team
+<a href="https://github.com/alurubalakarthikeya">@alurubalakarthikeya</a><br>
+<a href="https://github.com/ArjiJethin">@arjijethin</a><br>
+<a href="https://github.com/ayushsingh08-ds">@ayushsingh</a><br>
+<a href="https://github.com/Veda-1503">@vedeshwarinakate</a><br>
 
-## 📄 License
-This project is licensed under the [Creative Commons License ](LICENSE).
-
-Let’s make consistency your superpower with **StreakHub**! 🌟
+## License
+This project is licensed under the [Creative Commons License ](LICENSE). Please contact [@alurubalakarthikeya](https://github.com/alurubalakarthikeya) for contributing to this project

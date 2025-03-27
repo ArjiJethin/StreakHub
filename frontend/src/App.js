@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Modal from "./Components/Modal/Modal"; 
+import Navbar from "./Components/Navbar/Navbar";
+import Button from "./Components/Button/Button";
+import "./App.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <Navbar className="navBar" />
+      <div className="box">
+        <h1>Welcome to StreakHub</h1>
+        <button className="button" onClick={() => setIsModalOpen(true)}>Learn More</button>
+        <Button onClick={() => setIsModalOpen(true)}>Learn More</Button>
+      </div>
     </div>
   );
 }

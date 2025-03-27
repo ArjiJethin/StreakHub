@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `cd frontend`
+
+Changes the current directory to the front end folder to run the app
+
 ### `npm start`
 
 Runs the app in the development mode.\

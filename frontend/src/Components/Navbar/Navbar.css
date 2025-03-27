@@ -1,0 +1,106 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #007bff;
+  padding: 15px 30px;
+  color: white;
+  width: 100%; 
+  position: fixed;
+  top: 0; 
+  left: 0;
+  box-shadow: 0 2px 10px rgba(0, 99, 198, 0.85);
+  z-index: 1;
+  margin: 0;
+  border-radius: 0; 
+}
+
+  .navbar img {
+    max-width: 50px;
+    filter: drop-shadow(0 0 0.75rem #00346b);
+    filter: border-box(0 3px 0.75rem #00346b);
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center ;
+    list-style: none;
+    gap: 10px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #d4d4d4;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; 
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      font-size: 24px;
+    }
+  
+    .mobile-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #121212;
+      position: absolute;
+      border-radius: 0; 
+      top: 90px; 
+      left: 0;
+      width: 100%;
+      padding: 10px 0;
+      transition: 0.5s;
+    }
+  
+    .mobile-menu a {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+    }
+  
+    .mobile-menu a:hover {
+      background: #0058b7;
+    }
+}

@@ -1,0 +1,20 @@
+button.switch-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition:  0.5s;
+    background-color: white;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.switch-button:hover {
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 1px 5px rgba(0, 74, 143, 0.505);
+    border: 2px solid #53a6ff;
+}
