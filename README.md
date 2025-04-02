@@ -1,6 +1,6 @@
-# StreakHub
+# StreakHub 
 
-**StreakHub** is an app designed to help you build consistency and stay motivated in any domain. Whether you're learning a new skill, staying committed to fitness, or creating content for social media, StreakHub ensures you stay on track while competing with like minded people
+**StreakHub** is an app designed to help you build consistency and stay motivated in any domain. Whether you're learning a new skill, staying committed to fitness, or creating content for social media, StreakHub ensures you stay on track while competing with like minded people (*Under Development*)
 
 ---
 
